@@ -139,3 +139,10 @@ console.log(typeof dictionary);
 const iveMembersArray = ["안유진", "가을", "레이", "장원영", "리즈", "이서"];
 console.log(iveMembersArray);
 console.log(iveMembersArray[0]);
+
+/**
+ * static typing > 변수를 선언할 떄 어떤 타입의 변수를 선언할지를 명시한다.
+ *                 C
+ * dynamic typing > 변수의 타입을 명시적으로 선언하지 않고 값에 의해 타입을 '추론한다'
+ * js > dynamic typing **c언어랑 차이점이 c언어는 int이런식으로 타입을 지정하지만 js는 명시적 선언x
+ */

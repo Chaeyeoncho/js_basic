@@ -39,3 +39,8 @@ console.log(name);
 // 변수를 선언하기만 하고 할당하지 않는 것
 let girlfriend;
 console.log(girlfriend);
+
+//선언만 하고 할당하지 않으면 undefined로 출력됨
+
+//const girlfriend
+//let과 var은 선언만 해도 문제가 안되는데 const는 선언이 되어야 실행됨
