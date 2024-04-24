@@ -138,3 +138,21 @@ console.log(false || "아이브");
  * 지수연산자
  */
 console.log(2 ** 2);
+
+/**
+ * null 연산자
+ */
+
+console.log("----------------");
+let name;
+console.log(name);
+
+name = name ?? "코드팩토리"; // ?? 일때 undefined이면 오른쪽 값을 반환해라 !
+console.log(name);
+
+name = name ?? "아이브";
+console.log(name); //??가 undefined가 아니기 때문에 name그대로 반환
+
+let name2;
+name2 ??= "코드팩토리";
+console.log(name2);
