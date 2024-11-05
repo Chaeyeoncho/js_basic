@@ -22,3 +22,5 @@
  let area1 =  getArea(10, 20); // 인수 
  console.log(area1);
  getArea(20,30);
+
+ //선언문 보다 호출문이 앞으로 가도 실행됨 > 함수 호이스팅
